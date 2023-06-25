@@ -101,13 +101,14 @@ const styles = StyleSheet.create({
     },
     
     colorCircleWrapper: {
-        flexDirection: 'row'
+        flexDirection: 'row',
+        justifyContent: 'space-between',
     },
     colorCircle: {
         width: 40,
         height: 40,
         borderRadius: 20,
-        margin: 10
+        margin: 10,
     },
     colorCircleSelected: {
         borderStyle: 'solid',
