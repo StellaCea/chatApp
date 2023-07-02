@@ -109,24 +109,35 @@ const styles = StyleSheet.create({
         fontSize: 45,
     },
     colorSelect: {
-        height: 75
+        width: "88%",
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'flex-start',
+        marginBottom: 16,
+        borderWidth: 1,
+        padding: 16,
     },
     colorSelectText: {
-        textAlign: 'center',
         fontSize: 16,
-        fontWeight: '300',
-        color: '#757083'
+        fontWeight: '600',
+        color: '#757083',
+        opacity: 100,
+        marginBottom: 10
     },
     
     colorCircleWrapper: {
         flexDirection: 'row',
         justifyContent: 'space-between',
+        alignItems: 'flex-start',
+        width: "88%"
     },
     colorCircle: {
-        width: 40,
-        height: 40,
-        borderRadius: 20,
-        margin: 10,
+        width: 50,
+        height: 50,
+        borderRadius: 25,
+        margin: 5,
+        marginHorizontal: 13
+
     },
     colorCircleSelected: {
         borderStyle: 'solid',
@@ -136,7 +147,7 @@ const styles = StyleSheet.create({
     button: {
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'brown',
+        backgroundColor: 'black',
         padding: 10,
         width: '88%',
         height: 56,
